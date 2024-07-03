@@ -63,7 +63,7 @@ def main(args):
     """
     First sets variables and then runs the trainer model.
     """
-    args = setup_options()
+
     cfg = get_config(args)
 
     if args.aug is not None:
